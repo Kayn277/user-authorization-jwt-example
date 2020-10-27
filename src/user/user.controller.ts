@@ -10,7 +10,7 @@ export class UserController {
 
     @UseGuards(AuthGuard('local'))
     @Get()
-    async findAll() : Promise<User[]> {
+    async findAll() : Promise<UserDto[]> {
         return await this.userService.findAll();
     }
 

@@ -1,5 +1,3 @@
-import { Logger } from '@nestjs/common';
-import { Console } from 'console';
 import { Sequelize } from 'sequelize-typescript';
 import { User } from 'src/user/user.entity';
 
