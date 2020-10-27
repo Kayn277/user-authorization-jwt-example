@@ -5,6 +5,7 @@ import { AuthModule } from './auth/auth.module';
 import { ConfigModule } from '@nestjs/config';
 
 
+
 @Module({
   imports: [DatabaseModule,UserModule, AuthModule, ConfigModule.forRoot()],
   providers: [],
